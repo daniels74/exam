@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "An update",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "title": "Task10",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Task9",
+      "completed": false,
+      "id": 3
+    }
+  ]
+}

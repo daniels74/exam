@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #14202d;
+}
+
+.content {
+width: 100%;
+height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputSection__container {
+  position: relative;
+  width: 95%;
+  height: 5%;
+  background-color: #0b3a53;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+
+.lists__container {
+  position: relative;
+  width: 95%;
+  height: 95%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pending__list {
+  position: relative;
+  width: 48%;
+  height: 95%;
+  background-color: #0b3a53;
+  border-radius: 1rem;
+}
+
+.completed__list {
+  position: relative;
+  width: 48%;
+  height: 95%;
+  background-color: #0b3a53;
+  border-radius: 1rem;
+}
+
+.list__title {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.list__items {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background-color: aquamarine; */
+}
+
+.list__item {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #4d7990;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.description {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.option__buttons {
+  width: 30%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.description2 {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.option__buttons2 {
+  width: 20%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.option__buttons3 {
+  width: 10%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: #008cba;
+  color: white;
+  border-radius: 0.3rem;
+  height: 1.5rem;
+  width: 3rem;
+}
+
+.edit-btn {
+  background-color: #008cba;
+  z-index: 2;
+  position: relative;
+  width:32px;
+  height:32px;
+ 
+}
+
+.svg {
+  position: relative;
+  z-index: -1;
+  width:22px;
+  height: 22px;
+}
+
+.delete-btn {
+  background-color:  #c94c4c;
+  z-index: 2;
+  position: relative;
+  width:32px;
+  height:32px;
+}
+
+.swap-btn {
+  background-color: #4caf50;
+  z-index: 2;
+  position: relative;
+  width:32px;
+  height:32px;
+}
